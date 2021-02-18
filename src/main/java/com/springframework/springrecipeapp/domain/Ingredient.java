@@ -14,7 +14,7 @@ public class Ingredient {
     private Long id;
     private String description;
     private BigDecimal amount;
-    private BigDecimal other;
+    private BigDecimal other1;
     private BigDecimal other2;
 
     @OneToOne(fetch = FetchType.EAGER)
