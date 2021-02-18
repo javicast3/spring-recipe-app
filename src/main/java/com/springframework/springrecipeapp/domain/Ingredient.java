@@ -16,6 +16,7 @@ public class Ingredient {
     private BigDecimal amount;
     private BigDecimal other;
     private BigDecimal other2;
+    private BigDecimal other3;
 
     @OneToOne(fetch = FetchType.EAGER)
     private UnitOfMeasure uom;
