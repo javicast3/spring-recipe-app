@@ -20,7 +20,7 @@ public class Recipe {
     private Integer servings;
     private String source;
     private String url;
-    private String url2;
+    private String test;
 
 
     @Lob
